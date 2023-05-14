@@ -42,7 +42,7 @@ function rollDice() {
     const dice = Math.trunc(Math.random() * 6) + 1
     // display dice
     diceElement.classList.remove('hidden')
-    diceElement.src = `dice-${ dice }.png`
+    diceElement.src = `images/dice-${ dice }.png`
 
     
     // check for a rolled one,if true, switch to next player
